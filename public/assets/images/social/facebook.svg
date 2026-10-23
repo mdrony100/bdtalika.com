@@ -1,0 +1,19 @@
+ <svg xmlns="http://www.w3.org/2000/svg" id="Facebook" width="30" height="30" viewBox="0 0 30 30">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #475993;
+      }
+
+      .cls-2 {
+        fill: #fff;
+      }
+    </style>
+  </defs>
+  <g id="Group_1134" data-name="Group 1134">
+    <g id="Group_1148" data-name="Group 1148">
+      <path id="Path_1596" data-name="Path 1596" class="cls-1" d="M30,15A15,15,0,1,0,15,30,15,15,0,0,0,30,15Z"/>
+      <path id="Path_1597" data-name="Path 1597" class="cls-2" d="M229.312,144.513v-7.269h3.481l.549-2.408h-4.03V133.63c0-.63.3-1.227,1.606-1.227h2.615V130H229.82c-3.122,0-3.976,1.416-3.976,3.383v1.457H223.7v2.4h2.143v7.269Z" transform="translate(-213.614 -122.239)"/>
+    </g>
+  </g>
+</svg>

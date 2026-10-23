@@ -1,0 +1,11 @@
+User-agent: *
+Disallow: /admin
+Disallow: /author
+Disallow: /user/login
+Disallow: /user/register
+Disallow: /*?page=
+Disallow: /*?sort=
+Disallow: /*?filter*
+Allow: /
+
+Sitemap: https://bdtalika.com/sitemap.xml

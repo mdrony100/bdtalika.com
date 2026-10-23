@@ -1,0 +1,69 @@
+pending task
+1.serach console issue, search console top business, govt business add, user panel a kaj kora, message send kore user ke login korano, monthly analytics mail dewa, seo & marketing , blog writing, 500 error handle, user activities, 
+
+welcome, forgot password, direct reject, approve, delete, draft, support ticket mail, if directory is draft then mail send for taking plan, if any visitors send query then listing owner get mail, listing owner get monthly analytics mail. so for all these emails i need logs and see which mail sent when and mail body template i want to see as well. 
+
+
+glpat-g5B6zbF4civrgs2Q-nTIZmM6MQpvOjEKdTo0MWtuaA8.01.170kmuyk0
+
+
+
+
+
+
+
+ALTER TABLE `listing_enquiries`
+ADD `name` varchar(100) NULL AFTER `listing_id`;
+
+CREATE TABLE `listing_analytics` (
+  `id` bigint unsigned NOT NULL AUTO_INCREMENT,
+  `listing_id` bigint unsigned NULL,
+  `listing_owner_id` bigint unsigned NULL,
+  `user_id` bigint unsigned NULL,
+  `event_type` varchar(40) NOT NULL,
+  `visitor_hash` varchar(64) NULL,
+  `ip_address` varchar(64) NULL,
+  `device` varchar(100) NULL,
+  `browser` varchar(100) NULL,
+  `operating_system` varchar(100) NULL,
+  `event_date` date NOT NULL,
+  `created_at` timestamp NULL,
+  `updated_at` timestamp NULL,
+  PRIMARY KEY (`id`)
+);
+
+
+CREATE TABLE `user_logs` (
+  `id` BIGINT UNSIGNED NOT NULL AUTO_INCREMENT PRIMARY KEY,
+  `user_id` BIGINT UNSIGNED NULL,
+  `admin_id` BIGINT UNSIGNED NULL,
+  `action` VARCHAR(100) NOT NULL,
+  `description` TEXT NULL,
+  `ip_address` VARCHAR(45) NULL,
+  `user_agent` TEXT NULL,
+  `url` TEXT NULL,
+  `method` VARCHAR(20) NULL,
+  `data` LONGTEXT NULL,
+  `created_at` TIMESTAMP NULL,
+  `updated_at` TIMESTAMP NULL,
+  KEY `user_logs_user_id_index` (`user_id`),
+  KEY `user_logs_admin_id_index` (`admin_id`)
+) DEFAULT CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci;
+
+
+
+last changes billing paused , monthly notification change mail
+
+
+bkash merchant
+
+porichoy potro copy
+2 copy photo
+phone number jatai bkash account nai
+trade license photo copy
+letterpad a merchant account consent letter 
+
+
+
+
+
