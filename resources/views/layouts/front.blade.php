@@ -57,6 +57,7 @@
 <link rel="stylesheet" href="{{ asset('assets/front/css/toastr.min.css') }}">
 <link rel="stylesheet" href="{{ asset('assets/front/css/mdtimepicker.css') }}">
 <link href="{{ asset('assets/admin/css/tagify.css') }}" rel="stylesheet">
+<link rel="stylesheet" href="{{ asset('assets/front/css/plugins/font-awesome.css') }}">
 <link rel="stylesheet" href="{{ asset('assets/front/css/custom.min.css?v=3') }}">
 <link rel="shortcut icon" href="{{ asset('assets/images/' . $gs->favicon) }}">
 <link rel="icon" type="image/png" sizes="16x16" href="{{ asset('assets/images/' . $gs->favicon) }}">

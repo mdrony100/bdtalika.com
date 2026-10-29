@@ -513,30 +513,6 @@ $total_photos = ($product->photo != null ? 1 : 0) + $galleries;
 </section>--}}
 <section class="about_section space min pt-3">
 <div class="container">
-<div class="d-md-flex justify-content-between align-items-center">
-<div class="follow_us d-sm-flex justify-content-center mb-3 mb-md-0">
-<div class="me-0 me-sm-4"><h4 class="m-0">Follow us on</h4></div>
-<div class="social_media">
-<ul class="d-flex m-0 p-0">
-<li><a target="_blank" href="https://web.facebook.com/bdtalika"><img src="{{ asset('assets/images/social/facebook.svg') }}" alt="facebook"></a></li>
-<!-- <li><a target="_blank" href="https://www.youtube.com/@bdtalika"><img src="{{ asset('assets/images/social/youtube.svg') }}" alt="youtube"></a></li>
-<li><a target="_blank" href="https://www.instagram.com/bdtalika/"><img src="{{ asset('assets/images/social/instagram.svg') }}" alt="instagram"></a></li>
-<li><a target="_blank" href="https://www.tiktok.com/@bdtalika"><img src="{{ asset('assets/images/social/tik-tok.png') }}" alt="tiktok"></a></li>
-<li><a target="_blank" href="https://www.linkedin.com/in/bdtalika/"><img src="{{ asset('assets/images/social/linkedin.svg') }}" alt="linkedin"></a></li>
-<li><a target="_blank" href="https://twitter.com/bdtalika"><img src="{{ asset('assets/images/social/twitter.svg') }}" alt="twitter"></a></li> -->
-</ul>
-</div>
-</div>
-<div>
-<form action="{{ route('front.subscriber') }}" method="post">
-@csrf
-<div class="input-group mb-3">
-<input type="text" class="form-control subscribe_email" name="email" placeholder="@lang('Enter Your Email Address')" required>
-<button class="btn btn-height theme-bg text-light fs-md input-group-text" type="submit">@lang('Subscribe')</button>
-</div>
-</form>
-</div>
-</div>
 <div class="about_content mt-4">
 @if (isset($about_info))<div class="mb-4">{!! $about_info !!}</div> @endif
 </div>
