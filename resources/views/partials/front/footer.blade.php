@@ -4,7 +4,6 @@
 .footer_social_list li{padding:0 !important}
 .footer_social_list li a{display:inline-flex;align-items:center;justify-content:center;width:36px;height:36px;border-radius:50%;background:#f1f3f6;color:#555;font-size:16px;text-decoration:none;transition:all .2s ease}
 .footer_social_list li a:hover{background:#0076d7;color:#fff}
-.footer_subscribe .form-control{font-size:14px}
 </style>
 <footer class="light-footer skin-light-footer style-2 pt-4 pb-4">
 <div class="footer-middle">
@@ -79,16 +78,6 @@ $total_locations = DB::table('areas')->where('status', 1)->count();
 </ul>
 </div>
 @endif
-<div class="footer_subscribe mt-3">
-<h6>@lang('Subscribe')</h6>
-<form action="{{ route('front.subscriber') }}" method="post">
-@csrf
-<div class="input-group">
-<input type="text" class="form-control subscribe_email" name="email" placeholder="@lang('Enter Your Email Address')" required>
-<button class="btn theme-bg text-light input-group-text" type="submit">@lang('Subscribe')</button>
-</div>
-</form>
-</div>
 </div>
 </div>
 <div class="row"> 
